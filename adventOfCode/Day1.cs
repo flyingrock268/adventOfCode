@@ -57,5 +57,21 @@
 
         }
 
+        public static void RunGolfed() {
+
+            StreamReader reader = new StreamReader("inputDay1.txt");
+            int max, max2, max3 = max2 = max = 0;
+            while (reader.Peek() != -1){
+                int sum = 0;
+                string line;
+                while ((line = reader.ReadLine())!= null && !line.Equals(""))
+                    sum += Int32.Parse(line);
+                max = Math.Max(max, sum);
+                (max, max2) = (sum > max2) ? (max2, sum): (max, max2);
+                (max, max2, max3) = (sum > max3)?(max2, max3, sum): (max, max2, max3);}
+            Console.WriteLine(max3 + " " + (max + max2 + max3));
+
+        }
+
     }
 }

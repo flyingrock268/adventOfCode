@@ -5,7 +5,7 @@
         private static int Main()
         {
 
-            Day1.Run();
+            Day1.RunGolfed();
 
             return 0;
 
