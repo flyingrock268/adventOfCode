@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baj24\\OneDrive\\Documents\\GitHub\\adventOfCode\\adventOfCode\\adventOfCode.csproj": {}
+    "D:\\programs\\adventOfCode\\adventOfCode\\adventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baj24\\OneDrive\\Documents\\GitHub\\adventOfCode\\adventOfCode\\adventOfCode.csproj": {
+    "D:\\programs\\adventOfCode\\adventOfCode\\adventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baj24\\OneDrive\\Documents\\GitHub\\adventOfCode\\adventOfCode\\adventOfCode.csproj",
+        "projectUniqueName": "D:\\programs\\adventOfCode\\adventOfCode\\adventOfCode.csproj",
         "projectName": "adventOfCode",
-        "projectPath": "C:\\Users\\baj24\\OneDrive\\Documents\\GitHub\\adventOfCode\\adventOfCode\\adventOfCode.csproj",
+        "projectPath": "D:\\programs\\adventOfCode\\adventOfCode\\adventOfCode.csproj",
         "packagesPath": "C:\\Users\\baj24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baj24\\OneDrive\\Documents\\GitHub\\adventOfCode\\adventOfCode\\obj\\",
+        "outputPath": "D:\\programs\\adventOfCode\\adventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baj24\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
