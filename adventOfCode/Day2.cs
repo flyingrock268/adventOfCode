@@ -91,18 +91,18 @@ namespace adventOfCode
         public static void run2() {
 
             StreamReader reader = new StreamReader("inputDay2.txt");
-
-            int sum = 0;
+            int score = 0;
 
             while (reader.Peek() != -1)
             {
 
-                int score = 0;
+
 
                 string line = reader.ReadLine();
 
                 if (line[2].Equals('X'))
                 {
+
 
                     if (line[0].Equals('A'))
                     {
@@ -128,26 +128,24 @@ namespace adventOfCode
                 if (line[line.Length - 1].Equals('Y'))
                 {
 
-                    score += 3;
-
                     if (line[0].Equals('A'))
                     {
 
-                        score += 1;
+                        score += 4;
 
                     }
 
                     if (line[0].Equals('B'))
                     {
 
-                        score += 2;
+                        score += 5;
 
                     }
 
                     if (line[0].Equals('C'))
                     {
 
-                        score += 3;
+                        score += 6;
 
                     }
 
@@ -155,36 +153,32 @@ namespace adventOfCode
                 if (line[line.Length - 1].Equals('Z'))
                 {
 
-                    score += 6;
-
                     if (line[0].Equals('A'))
                     {
 
-                        score += 2;
+                        score += 8;
 
                     }
 
                     if (line[0].Equals('B'))
                     {
 
-                        score += 3;
+                        score += 9;
 
                     }
 
                     if (line[0].Equals('C'))
                     {
 
-                        score += 1;
+                        score += 7;
 
                     }
 
                 }
 
-                sum += score;
-
             }
 
-            Console.WriteLine(sum);
+            Console.WriteLine(score);
 
         }
 
