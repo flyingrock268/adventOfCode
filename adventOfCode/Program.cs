@@ -24,6 +24,10 @@
             Day5.Run();
             Day5.Run2();
 
+            Console.WriteLine("\n=====DAY 6=====");
+            Day6.Run();
+            Day6.Run2();
+
             return 0;
 
         }
